@@ -25,7 +25,7 @@
 }
 .link--type-circle.link--theme-gs1-link-accessible
 {
-    background-color: var(--color-gs1-link-accessible);
+    background-color: var(--color-millionum-green);
     color: var(--color-white);
 }
 .link--type-circle.link--theme-gs1-link-accessible:hover
@@ -73,7 +73,7 @@
 .link--theme-gs1-link-accessible
 {
     transition: .3s;
-    color: var(--color-gs1-link-accessible);
+    color: var(--color-millionum-green);
 }
 .link--theme-gs1-link-accessible:hover
 {
@@ -82,7 +82,7 @@
 .link--theme-gs1-link
 {
     transition: .3s;
-    color: var(--color-gs1-link-accessible);
+    color: var(--color-millionum-green);
 }
 .link--theme-gs1-link:hover
 {

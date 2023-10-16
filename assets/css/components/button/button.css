@@ -85,7 +85,7 @@
 .button-theme-gs1-link-accessible
 {
     transition: .3s;
-    color: var(--color-gs1-link-accessible);
+    color: var(--color-millionum-green);
 }
 .button-theme-gs1-link-accessible:hover
 {
@@ -108,7 +108,7 @@
 }
 .button-theme-gs1-blue-line:hover
 {
-    color: var(--color-gs1-link-accessible);
+    color: var(--color-millionum-green);
 }
 .button-theme-flamingo
 {

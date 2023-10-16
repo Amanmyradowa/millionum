@@ -8,7 +8,7 @@
 .copyright--theme-gs1-color-ui-6
 {
     color: var(--gs1-color-ui-6);
-    border-top: 1px solid var(--gs1-color-ui-3);
+    border-top: 1px solid var(--color-millionum-green)
 }
 .copyright__text
 {
@@ -21,7 +21,7 @@
 .copyright__link
 {
     text-decoration: none;
-    color: var(--color-gs1-link-accessible);
+    color: var(--color-millionum-green);
 }
 .copyright__link:hover
 {
