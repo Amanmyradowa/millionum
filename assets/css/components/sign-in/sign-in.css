@@ -19,11 +19,18 @@
   overflow: hidden;
   transition: all .25s;
 }
+.dropdown-sign-in__content li
+{
+  border-bottom: 1px solid white;
+}
+.dropdown-sign-in__content li:last-child
+{
+  border-bottom: none;
+}
 .sign-in__title
 {
   display: block;
   color: var(--color-millionum-green);
   font-size: 13px;
-  border-bottom: 1px solid white;
   padding: 4px;
 }
