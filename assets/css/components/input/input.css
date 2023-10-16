@@ -1,0 +1,42 @@
+@import './input-outer.css';
+.input
+{
+    width: 100%;
+    text-overflow: ellipsis;
+    border-radius: 4px 0 0 4px;
+}
+.input--size-medium
+{
+    padding: 0 10px;
+    font: normal 500 15px/22.5px 'Gotham Office', 'Verdana', sans-serif;
+}
+.input--theme-trout
+{
+    background-color: var(--color-white);
+    color: var(--color-trout);
+    outline: none;
+    border: 1px solid var(--color-ghost);
+    border-radius: 4px;
+}
+.input--theme-trout:focus
+{
+    border: 2px solid var(--color-gs1-blue);
+}
+.input--size-default
+{
+    height: 34px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font: normal normal 14px/1.42 'Gotham Office', 'Verdana', sans-serif;
+}
+.input--theme-edward
+{
+    background-color: var(--color-white);
+    color: var(--color-mine-shaft);
+    border: 1px solid var(--color-edward);
+    border-radius: unset;
+}
+.input--theme-edward::placeholder
+{
+    color: var(--color-edward);
+}

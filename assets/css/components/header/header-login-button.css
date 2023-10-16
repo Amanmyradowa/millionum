@@ -1,0 +1,9 @@
+.header-login-button
+{
+    margin-left: 5px;
+}
+.header-login-button--size-default
+{
+    min-height: var(--size-header-login-button);
+    font: normal 500 14px/16px 'Gotham Office', 'Verdana', sans-serif;
+}

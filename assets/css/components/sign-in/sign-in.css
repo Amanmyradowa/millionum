@@ -1,0 +1,29 @@
+.sign-in
+{
+  padding: 6px 12px;
+  background-color: var(--color-border);
+  border: none;
+  color: var(--color-millionum-green);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.dropdown-sign-in__content
+{
+  width: 88px;
+  position: absolute;
+  top: 33px;
+  background-color: var(--color-border);
+  border-radius: 4px;
+  padding: 0 12px;
+  height: 0px;
+  overflow: hidden;
+  transition: all .25s;
+}
+.sign-in__title
+{
+  display: block;
+  color: var(--color-millionum-green);
+  font-size: 13px;
+  border-bottom: 1px solid white;
+  padding: 4px;
+}

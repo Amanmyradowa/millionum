@@ -1,0 +1,13 @@
+.searching
+{
+  width: 40%;
+}
+.searching__icon
+{
+  display: flex;
+}
+.searching__icon:hover svg g path
+{
+  transition: .3s;
+  fill: var(--color-red)
+}

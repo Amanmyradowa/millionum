@@ -1,0 +1,14 @@
+.image-info
+{
+    position: relative;
+    width: 100%;
+}
+.image-info .image-info__info
+{
+    position: absolute;
+}
+.image-info .image-info__info--position-top-left.info--size-default
+{
+    top: 23px;
+    left: 23px;
+}

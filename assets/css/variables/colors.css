@@ -1,0 +1,60 @@
+:root
+{
+    --color-black-squeeze: #F2F5F7;
+
+    --color-abbey: #414345;
+
+    --color-trout: #495057;
+
+    --color-ghost: #ced4da;
+
+    --color-dusty-gray: #999999;
+
+    --color-hawkes-blue: #e5fce5;
+
+    --color-flamingo: #f16333;
+
+    --color-tia-maria: #cd3c0d;
+
+    --color-fire: #a82c05;
+
+    --color-wild_sand: #F4F4F4;
+
+    --color-edward: #B1B3B3;
+
+    --color-bondi-blue: #008DBD;
+
+    --color-mine-shaft: #262626;
+
+    --gs1-color-ui-2: #e5f0fc;
+
+    --gs1-color-ui-3: #c4d7ed;
+
+    --gs1-color-ui-6: #696D73;
+
+    --color-white: #ffffff;
+
+    --color-gs1-blue-opacity-02: rgba(0, 44, 108, .2);
+
+    --color-gs1-blue-dark-1: #001a4d;
+
+    --color-gs1-link-accessible: #00799e;
+
+    --color-gs1-link: #008dbd;
+
+    --color-millionum-green: #02592E;
+
+    --color-border: #d9e5d7;
+
+    --color-grey: (255, 255, 255, 0.60);
+
+    --color-red: rgba(200, 44, 49, 1);
+
+    --color-shadow: rgba(73, 227, 173, 0.12);
+
+    --color-green-shadow: rgba(165, 238, 102, 0.12);
+
+    --color-border: rgba(73, 227, 96, 0.12);
+
+    --color-light-green: #EAF6F1;
+}

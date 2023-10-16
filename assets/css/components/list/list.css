@@ -1,0 +1,17 @@
+@import 'list-outer.css';
+.list
+{
+
+}
+.list__item
+{
+    list-style: none;
+}
+.list__item--size-default:nth-child(n+2)
+{
+    margin-top: 16px;
+}
+.list__link--size-large
+{
+    line-height: 21px;
+}

@@ -1,0 +1,54 @@
+.icon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon *
+{
+    fill: currentColor;
+}
+.icon--theme-gs1-blue
+{
+    color: var(--color-gs1-blue);
+}
+.icon--theme-dusty-gray
+{
+    color: var(--color-dusty-gray);
+}
+.icon--size-small
+{
+    width: var(--size-icon-small);
+    min-width: var(--size-icon-small);
+    max-width: var(--size-icon-small);
+    height: var(--size-icon-small);
+    min-height: var(--size-icon-small);
+    max-height: var(--size-icon-small);
+}
+.icon--size-medium
+{
+    width: var(--size-icon-middle);
+    min-width: var(--size-icon-middle);
+    max-width: var(--size-icon-middle);
+    height: var(--size-icon-middle);
+    min-height: var(--size-icon-middle);
+    max-height: var(--size-icon-middle);
+}
+.icon--size-large
+{
+    width: var(--size-icon-large);
+    min-width: var(--size-icon-large);
+    max-width: var(--size-icon-large);
+    height: var(--size-icon-large);
+    min-height: var(--size-icon-large);
+    max-height: var(--size-icon-large);
+}
+.icon--size-small-dimension
+{
+    width: var(--size-icon-small-dimension);
+    min-width: var(--size-icon-small-dimension);
+    max-width: var(--size-icon-small-dimension);
+    height: var(--size-icon-small-dimension);
+    min-height: var(--size-icon-small-dimension);
+    max-height: var(--size-icon-small-dimension);
+}

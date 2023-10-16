@@ -1,0 +1,122 @@
+.button
+{
+    cursor: pointer;
+    background-color: var(--color-millionum-green);
+}
+.button-swiper
+{
+    border-radius: 4px;
+    background-color: var(--color-border);
+    
+}
+.button[href]
+{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.button--type-full.button--size-large
+{
+    width: 100%;
+}
+.button--type-square.button--size-large
+{
+    padding: 9px 16px 8px;
+    border-radius: unset;
+}
+.button--size-large
+{
+    padding: 13px 24px;
+    border-radius: 4px;
+}
+.button--type-icon
+{
+    display: inline-flex;
+    align-items: center;
+}
+.button--effect-bubble
+{
+    transition: .3s;
+}
+.button--effect-bubble:active
+{
+    transition: 0s;
+    transform: scale(1.2);
+}
+.button--theme-nevada
+{
+    color: var(--gs1-color-ui-6);
+}
+.button-theme-tia-maria
+{
+    border: none;
+    transition: .2s;
+    color: var(--color-white);
+}
+.button-theme-tia-maria:hover
+{
+    background-color: var(--color-fire);
+}
+.button__icon--position-right
+{
+    margin-left: 8px;
+}
+.button--animation-type-icon-move .button__icon
+{
+    transition: .3s;
+}
+.button--animation-type-icon-move:hover .button__icon--position-right
+{
+    transform: translateX(4px);
+}
+.button--animation-type-bubble:active
+{
+    transform: scale(1.05);
+}
+.button--font-size-small
+{
+    font: normal 300 14px/17px 'Gotham Office', 'Verdana', sans-serif;
+}
+.button--font-size-medium
+{
+    font: normal 300 15px/18px 'Gotham Office', 'Verdana', sans-serif;
+}
+.button-theme-gs1-link-accessible
+{
+    transition: .3s;
+    color: var(--color-gs1-link-accessible);
+}
+.button-theme-gs1-link-accessible:hover
+{
+    color: var(--color-gs1-blue);
+}
+.button-theme-gs1-blue
+{
+    transition: .3s;
+    background-color: var(--color-gs1-blue);
+    color: white;
+}
+.button-theme-gs1-blue:hover
+{
+    background-color: var(--color-gs1-blue-dark-1);
+}
+.button-theme-gs1-blue-line
+{
+    transition: .3s;
+    color: var(--color-gs1-blue);
+}
+.button-theme-gs1-blue-line:hover
+{
+    color: var(--color-gs1-link-accessible);
+}
+.button-theme-flamingo
+{
+    transition: .3s;
+    background-color: var(--color-flamingo);
+    color: var(--color-white);
+}
+.button-theme-flamingo:hover
+{
+    background-color: var(--color-tia-maria);
+}

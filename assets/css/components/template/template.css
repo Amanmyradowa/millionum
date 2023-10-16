@@ -1,0 +1,23 @@
+.template
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.template__wrapper--size-default
+{
+    max-width: var(--size-template-default);
+}
+.template__wrapper--size-full
+{
+    max-width: 100%;
+    padding: 0 !important;
+}
+
+.information
+{
+    background-color: var(--color-light-green);
+    padding: 15px;
+}

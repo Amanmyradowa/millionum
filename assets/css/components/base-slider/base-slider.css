@@ -1,0 +1,21 @@
+@import 'base-slider-arrows.css';
+.base-slider .swiper,
+.base-slider__wrapper
+{
+    height: 100%;
+}
+.base-slider__wrapper
+{
+    position: relative;
+}
+.base-slider__arrows-outer
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 200;
+}
+.base-slider-arrows__arrow--type-next
+{
+    margin-left: 23px;
+}

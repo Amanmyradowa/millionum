@@ -1,0 +1,51 @@
+.login
+{
+
+}
+.login--theme-wild-sand
+{
+    background-color: var(--color-wild_sand);
+}
+.login.main
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.login .logotype
+{
+    padding: 39px 0 31px 0;
+}
+.login__separator--position-center
+{
+    display: flex;
+    justify-content: center;
+}
+.login__heading
+{
+    text-align: center;
+}
+.login__heading--size-default
+{
+    margin: 20px 0;
+    padding: 25px 0 40px 0;
+    font: normal lighter 36px/39.6px 'Gotham Office', 'Verdana', sans-serif;
+}
+.login__heading--theme-gs1-blue
+{
+    color: var(--color-gs1-blue);
+}
+@media (max-width: 800px)
+{
+    .login__heading--size-default
+    {
+        font-size: 26px;
+    }
+}
+@media (max-width: 600px)
+{
+    .login__heading--size-default
+    {
+        font-size: 20px;
+    }
+}

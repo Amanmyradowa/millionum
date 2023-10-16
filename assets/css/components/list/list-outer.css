@@ -1,0 +1,22 @@
+.list-outer {}
+.list-outer__heading {}
+.list-outer__heading--size-default
+{
+    margin-bottom: 17px;
+    padding-bottom: 7px;
+    font: normal 600 15px/16px 'Gotham Office', 'Verdana', sans-serif;
+}
+.list-outer__heading--size-large
+{
+    margin-bottom: 17px;
+    font: normal 600 18px/23px 'Gotham Office', 'Verdana', sans-serif;
+}
+.list-outer__heading--theme-mine-shaft
+{
+    color: var(--color-mine-shaft);
+    border-bottom: 1px solid var(--gs1-color-ui-3);
+}
+.list-outer__heading--theme-gs1-blue
+{
+    color: var(--color-gs1-blue);
+}

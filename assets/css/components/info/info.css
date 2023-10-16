@@ -1,0 +1,15 @@
+.info
+{
+    display: inline-flex;
+}
+.info--size-default
+{
+    padding: 3.75px 7.5px;
+    font: normal normal 12px/22.5px 'Gotham Office', 'Verdana', sans-serif;
+}
+.info--theme-flamingo
+{
+    background-color: var(--color-flamingo);
+    color: var(--color-white);
+    border-radius: 3px;
+}

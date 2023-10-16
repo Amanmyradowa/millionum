@@ -1,0 +1,35 @@
+.breadcrumbs
+{
+    margin: 33px 0 15px 0;
+}
+.breadcrumbs__list
+{
+    display: flex;
+    align-items: center;
+}
+.breadcrumbs__item
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.breadcrumbs__link
+{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    font: normal 300 14.25px/21px 'Gotham Office', 'Verdana', sans-serif;
+}
+.breadcrumbs__item.active .breadcrumbs__link.link--theme-gs1-link-accessible
+{
+    color: var(--color-mine-shaft);
+    pointer-events: none;
+}
+.breadcrumbs__link:hover
+{
+    text-decoration: underline;
+}
+.breadcrumbs__link-icon
+{
+    margin: 0 6px;
+}

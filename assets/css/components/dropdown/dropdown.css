@@ -1,0 +1,110 @@
+.dropdown
+{
+    position: relative;
+}
+.dropdown__menu-content .dropdown__menu:hover
+{
+    visibility: visible !important;
+    opacity: 1;
+    z-index: 101;
+}
+.dropdown__menu-content .dropdown__menu li a
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-millionum-green);
+    transition: opacity .3s ease-in-out;
+    display: block;
+}
+.dropdown__menu-content .dropdown__menu li a:hover
+{
+    color: var(--color-red);
+}
+.dropdown__toggle-icon
+{
+    transition: transform .3s;
+}
+.dropdown.open .dropdown__toggle-icon
+{
+    transform: rotate(180deg);
+}
+.dropdown-language__content
+{
+    position: absolute;
+    top: 30px;
+    background-color: var(--color-border);
+    border-radius: 4px;
+    padding: 0 8px;
+    height: 0;
+    overflow: hidden;
+    transition: all .25s;
+}
+.dropdown-language__content.active
+{
+    height: 50px;
+}
+
+.dropdown__content
+{
+    min-width: 100%;
+    transition: .2s;
+    transform: scale(0) translateY(-100%);
+    position: absolute;
+    top: calc(100% + 10px);
+    z-index: 1000;
+}
+.dropdown.open .dropdown__content
+{
+    transform: scale(1) translateY(0);
+}
+.dropdown__content--theme-gs1-link-accessible
+{
+    border: 1px solid var(--color-gs1-link-accessible);
+    border-radius: 4px;
+}
+.dropdown__content--theme-gs1-link-accessible .dropdown__item:first-child .dropdown__link
+{
+    border-radius: 4px 4px 0 0;
+}
+.dropdown__content--theme-gs1-link-accessible .dropdown__item:last-child .dropdown__link
+{
+    border-radius: 0 0 4px 4px;
+}
+.dropdown__content--position-left
+{
+    left: 0;
+}
+.dropdown__content--theme-white
+{
+    background-color: var(--color-white);
+}
+.dropdown__item
+{
+    width: 100%;
+    list-style-type: none;
+}
+.dropdown__link--position-center
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.dropdown__link--size-small
+{
+    min-height: 30px;
+}
+.dropdown__link--theme-gs1-link-accessible
+{
+    transition: .15s;
+    color: var(--color-gs1-link-accessible);
+}
+.dropdown__link--theme-gs1-link-accessible:hover
+{
+    background-color: var(--color-black-squeeze);
+    color: var(--color-gs1-blue);
+}
+.dropdown__item:nth-child(n+2) .dropdown__link--theme-gs1-link-accessible
+{
+    border-top: 1px solid var(--color-gs1-link-accessible);
+}

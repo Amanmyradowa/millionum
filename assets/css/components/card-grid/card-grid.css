@@ -1,0 +1,71 @@
+@import 'card-grid-item.css';
+.card-grid
+{
+
+}
+.card-grid--size-default
+{
+    padding: 60px 0;
+}
+.card-grid--theme-black-squeeze
+{
+    background-color: var(--color-black-squeeze);
+}
+.card-grid-item__image
+{
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+    height: 170px;
+}
+.card-grid-item__image--size-large
+{
+    height: 213px;
+}
+.card-grid-item-type-content-top .card-grid-item__image--size-large
+{
+    border-radius: 4px;
+}
+@media (max-width: 900px)
+{
+    .card-grid .grid-column-4
+    {
+        --grid-length: 2;
+        --grid-width-4: 50%;
+    }
+    .grid-column-4:nth-child(3n+1)
+    {
+        margin-left: var(--grid-between);
+    }
+    .grid-column-4:nth-child(2n+1)
+    {
+        margin-left: 0;
+    }
+    .grid-column-4:nth-child(n+3)
+    {
+        margin-top: var(--grid-between);
+    }
+    .card-grid--size-default
+    {
+        padding: 50px 0;
+    }
+}
+@media (max-width: 600px)
+{
+    .card-grid .grid-column-4
+    {
+        --grid-length: 1;
+        --grid-width-4: 100%;
+    }
+    .grid-column-4:nth-child(1n+1)
+    {
+        margin-left: 0;
+    }
+    .grid-column-4:nth-child(n+2)
+    {
+        margin-top: var(--grid-between);
+    }
+    .card-grid--size-default
+    {
+        padding: 50px 0;
+    }
+}

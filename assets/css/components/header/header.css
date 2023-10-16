@@ -1,0 +1,12 @@
+@import 'header-base.css';
+@import 'header-main.css';
+@import 'header-login-button.css';
+.shadow
+{
+    box-shadow: 0 2px 8px 0 rgba(63, 111, 34, 0.08);
+}
+.header
+{
+    position: relative;
+    z-index: 102;
+}

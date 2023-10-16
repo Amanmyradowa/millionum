@@ -1,0 +1,58 @@
+.heading-text
+{
+    padding-top: 8px;
+}
+.heading-text__heading--theme-gs1-blue
+{
+    color: var(--color-millionum-green);
+}
+.heading-text__heading--size-default
+{
+    max-width: 58%;
+    margin-bottom: 22px;
+    font: normal 500 30px/36px 'Gotham Office', 'Verdana', sans-serif;
+}
+.heading-text__paragraph--theme-dark
+{
+    color: var(--color-mine-shaft);
+}
+.heading-text__paragraph--size-default
+{
+    font: normal 500 22.5px/33.7px 'Gotham Office', 'Verdana', sans-serif;
+}
+.heading-text__button--size-default
+{
+    font: normal 500 13.1px/21px 'Gotham Office', 'Verdana', sans-serif;
+}
+@media (max-width: 800px)
+{
+    .heading-text
+    {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .heading-text__heading--size-default
+    {
+        max-width: 100%;
+        font-size: 24px;
+    }
+    .heading-text__paragraph--size-default
+    {
+        font-size: 16px;
+    }
+    .heading-text .margin-top-45
+    {
+        margin-top: 25px;
+    }
+}
+@media (max-width: 500px)
+{
+    .heading-text__heading--size-default
+    {
+        font-size: 20px;
+    }
+    .heading-text__paragraph--size-default
+    {
+        font-size: 14px;
+    }
+}

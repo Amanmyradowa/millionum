@@ -1,0 +1,20 @@
+.count__container
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.count
+{
+  font-size: 18px;
+  color: var(--color-millionum-green);
+}
+.red
+{
+  color: var(--color-red);
+}
+
+.count__container small
+{
+  font-size: 13px;
+}

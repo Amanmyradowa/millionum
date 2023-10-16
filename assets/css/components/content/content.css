@@ -1,0 +1,66 @@
+.content__inner p
+{
+    color: var(--color-gs1-blue);
+    text-align: justify;
+    line-height: 22.5px;
+}
+.content__inner p:nth-child(n+2)
+{
+    margin-top: 15px;
+}
+.content__inner h1,
+.content__inner h2,
+.content__inner h3,
+.content__inner h4,
+.content__inner h5,
+.content__inner h6
+{
+    margin-bottom: 17px;
+    color: var(--color-gs1-blue);
+    font: normal bolder 24.75px/29.5px 'Gotham Office', 'Verdana', sans-serif;
+}
+.content__inner a
+{
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-gs1-link-accessible);
+}
+.content__inner .button-theme-tia-maria
+{
+    color: var(--color-white);
+}
+.content__inner .button-theme-tia-maria:hover
+{
+    color: var(--color-white);
+}
+.content__inner a:hover
+{
+    color: var(--color-gs1-blue);
+}
+.content__inner ul
+{
+    padding-left: 30px;
+}
+.content__inner li:nth-child(n+2)
+{
+    padding-top: 5px;
+}
+.content__inner * + ul,
+.content__inner * + ol
+{
+    margin-top: 15px;
+}
+@media (max-width: 800px)
+{
+    .content.margin-top-60
+    {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 600px)
+{
+    .content.margin-top-60
+    {
+        margin-top: 30px;
+    }
+}

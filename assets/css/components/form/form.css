@@ -1,0 +1,33 @@
+.form
+{
+    position: relative;
+}
+.form--size-medium
+{
+    width: 100%;
+    max-width: 540px;
+    padding: 20px;
+}
+.form--theme-white
+{
+    background-color: var(--color-white);
+    border: 1px solid var(--color-edward);
+}
+.form__top-line
+{
+    position: absolute;
+}
+.form__top-line--position-top
+{
+    bottom: calc(100% - 2px);
+    left: -1px;
+}
+.form__top-line--size-default
+{
+    width: calc(100% + 2px);
+    height: 7px;
+}
+.form__top-line--theme-flamingo
+{
+    background-color: var(--color-flamingo);
+}

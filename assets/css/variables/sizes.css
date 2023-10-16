@@ -1,0 +1,30 @@
+:root
+{
+    --size-header-height: 149px;
+
+    --size-footer-height: 451px;
+
+    --size-header-base-main-info-height: 43px;
+
+    --size-header-main-height: 60px;
+
+    --size-header-login-button: 47px;
+
+    --size-logotype-height: 61.5px;
+
+    --size-menu-link-height: 40px;
+
+    --size-search-input-height: 35px;
+
+    --size-template-default: 1140px;
+
+    --size-icon-small: 15px;
+
+    --size-icon-middle: 16px;
+
+    --size-icon-large: 20px;
+
+    --size-icon-small-dimension: 22px;
+
+    --size-top-slider-height: 480px;
+}
