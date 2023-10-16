@@ -25,7 +25,7 @@ signIn.addEventListener('click', function() {
     signInBtn = true;
     signIn_content.style.height = ulHeight + 'px';
   } else{
-    signIn_content.style.height = 0;
+    signIn_content.style.height = "";
   }
 });
 
