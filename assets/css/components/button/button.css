@@ -54,10 +54,6 @@
     transition: .2s;
     color: var(--color-white);
 }
-.button-theme-tia-maria:hover
-{
-    background-color: var(--color-fire);
-}
 .button__icon--position-right
 {
     margin-left: 8px;

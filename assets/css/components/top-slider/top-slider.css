@@ -7,6 +7,17 @@
     position: relative;
     height: var(--size-top-slider-height);
 }
+.swiper-slide-text
+{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: var(--color-white);
+}
+.swiper-top-title
+{
+    font-size: 38px;
+}
 .top-slider__slide .template,
 .top-slider__slide .template__wrapper
 {
@@ -49,6 +60,10 @@
 .top-slider__button
 {
     margin-top: 48px;
+}
+.top-slider__button span
+{
+    display: flex;
 }
 .top-slider__button--size-default
 {

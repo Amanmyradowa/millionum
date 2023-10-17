@@ -5,6 +5,7 @@ new Swiper('.swiper', {
   grabCursor: true,
   touchEventsTarget: 'container',
   speed: 1500,
+  
   autoplay: {
     delay: 6000,
     disableOnInteraction: false,
