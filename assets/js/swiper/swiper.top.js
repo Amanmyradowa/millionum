@@ -11,8 +11,8 @@ new Swiper('.swiper', {
   },
 
   navigation: {
-    nextEl: '.base-slider-arrows__arrow--type-previous',
-    prevEl: '.sbase-slider-arrows__arrow--type-next',
+    nextEl: '.base-slider-arrows__arrow--type-next',
+    prevEl: '.base-slider-arrows__arrow--type-previous',
   },
 
 });

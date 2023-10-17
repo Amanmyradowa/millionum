@@ -20,12 +20,18 @@
     cursor: pointer;
 }
 
+.template__wrapper-news
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .news-slider__arrows-outer 
 {
     position: absolute;
     z-index: 1;
     bottom: 60px;
-    right: 145px;
 }
 
 .news__swiper {

@@ -4,8 +4,13 @@
 }
 .list__link--type-icon
 {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+}
+.list__link--type-icon span
+{
+    display: flex;
+    margin-right: 10px;
 }
 .list__link-icon
 {
@@ -87,6 +92,10 @@
 .link--theme-gs1-link:hover
 {
     color: var(--color-gs1-link);
+}
+.link--theme-gs1-link:hover span svg path
+{
+    fill: var(--color-gs1-link);
 }
 .link--theme-bondi-blue
 {
