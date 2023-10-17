@@ -3,6 +3,7 @@
     padding: 60px 0px 160px;
     background-color: var(--color-light-green);
     position: relative;
+    margin-bottom: 60px;
 }
 
 .news__header
@@ -18,6 +19,10 @@
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+}
+.news__header a:hover
+{
+    color: var(--color-red);
 }
 
 .template__wrapper-news

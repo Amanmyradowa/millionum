@@ -1,0 +1,28 @@
+.text
+{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100px;
+}
+.item__price
+{
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.item__info__city
+{
+  display: flex;
+  font-size: 13px;
+  color: var(--color-grey);
+}
+.product-link:hover
+{
+  color: var(--color-red);
+}
+.item__info__city span
+{
+  display: flex;
+  margin-right: 6px;
+}

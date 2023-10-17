@@ -30,11 +30,12 @@
 }
 .dropdown-language__content
 {
+    width: 40px;
     position: absolute;
-    top: 30px;
-    background-color: var(--color-border);
+    top: 32px;
+    background-color: var(--color-millionum-green);
     border-radius: 4px;
-    padding: 0 8px;
+    padding: 0 6px;
     height: 0;
     overflow: hidden;
     transition: all .25s;

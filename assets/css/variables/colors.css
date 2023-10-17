@@ -34,15 +34,13 @@
 
     --color-white: #ffffff;
 
-    --color-gs1-blue-opacity-02: rgba(0, 44, 108, .2);
+    --color-gs1-blue-opacity-02: rgba(0, 108, 86, 0.2);
 
     --color-gs1-link: black;
 
     --color-millionum-green: #02592E;
 
-    --color-border: #d9e5d7;
-
-    --color-grey: (255, 255, 255, 0.60);
+    --color-grey: #5C6C80;
 
     --color-red: rgba(200, 44, 49, 1);
 

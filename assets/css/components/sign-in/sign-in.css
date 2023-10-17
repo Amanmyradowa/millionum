@@ -1,18 +1,21 @@
 .sign-in
 {
   padding: 6px 12px;
-  background-color: var(--color-border);
+  height: 28px;
+  background-color: var(--color-millionum-green);
   border: none;
-  color: var(--color-millionum-green);
+  color: var(--color-white);
   border-radius: 4px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 .dropdown-sign-in__content
 {
   width: 88px;
   position: absolute;
   top: 33px;
-  background-color: var(--color-border);
+  background-color: var(--color-millionum-green);
   border-radius: 4px;
   padding: 0 12px;
   height: 0px;
@@ -30,7 +33,7 @@
 .sign-in__title
 {
   display: block;
-  color: var(--color-millionum-green);
+  color: var(--color-white);
   font-size: 13px;
   padding: 4px;
 }
