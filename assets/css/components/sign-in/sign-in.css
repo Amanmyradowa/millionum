@@ -12,11 +12,9 @@
 }
 .dropdown-sign-in__content
 {
-  /* width: 88px; */
-  width: 100%;
-  min-width: 100%;
   position: absolute;
   top: 33px;
+  right: 0;
   background-color: var(--color-millionum-green);
   border-radius: 4px;
   padding: 0 12px;
