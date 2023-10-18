@@ -1,9 +1,10 @@
 .text
 {
+  height: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  height: 100%;
+  font-size: 14px;
 }
 .item__price
 {
@@ -25,8 +26,4 @@
 {
   display: flex;
   margin-right: 6px;
-}
-.item__info
-{
-
 }
