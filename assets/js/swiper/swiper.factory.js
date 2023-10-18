@@ -1,5 +1,5 @@
 new Swiper('.factory__swiper', {
-  slidesPerView: 4,
+  slidesPerView: 5,
   slidesPerGroup: 1,
   loopedSlides: 1,
   spaceBetween: 22,
