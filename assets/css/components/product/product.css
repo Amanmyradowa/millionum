@@ -9,10 +9,10 @@
 }
 .product
 {
-  height: 350px !important;
+  height: auto !important;
   display: flex;
   align-items: stretch;
-  padding: 0 10px 10px;
+  padding: 20px 10px 10px;
   border: 2px solid var(--color-border);
   box-shadow: 0 2px 8px 0 rgba(102,163,238,.08);
   border-radius: 4px;
