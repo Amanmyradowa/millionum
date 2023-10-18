@@ -41,6 +41,7 @@
 @import 'components/count/count.css';
 @import 'components/languages/languges.css';
 @import 'components/item-product/item-product.css';
+@import 'components/factories/factories.css';
 *
 {
     margin: 0;

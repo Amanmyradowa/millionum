@@ -9,7 +9,7 @@
 }
 .product
 {
-  height: auto !important;
+  height: 400px !important;
   display: flex;
   align-items: stretch;
   padding: 10px;
@@ -27,7 +27,11 @@
 {
   margin-left: 23px;
 }
-.product-image
+.base-slider-arrows__arrow--type-next-factory
+{
+  margin-left: 23px;
+}
+.swiper-image
 {
   display: flex;
   margin-bottom: 30px;
@@ -44,9 +48,8 @@
 }
 .product-description
 {
-  margin-bottom: 10px;
-  /* display: -webkit-box;
-  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  overflow: hidden; */
+  overflow: hidden;
 }

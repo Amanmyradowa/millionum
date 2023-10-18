@@ -9,7 +9,7 @@
 {
   font-size: 15px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .item__info__city
 {
@@ -25,4 +25,8 @@
 {
   display: flex;
   margin-right: 6px;
+}
+.item__info
+{
+
 }

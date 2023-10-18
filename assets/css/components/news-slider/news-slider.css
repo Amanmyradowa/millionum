@@ -6,21 +6,21 @@
     margin-bottom: 60px;
 }
 
-.news__header
+.swiper__header
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.news__header a
+.swiper__header a
 {
     color: var(--color-millionum-green);
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
 }
-.news__header a:hover
+.swiper__header a:hover
 {
     color: var(--color-red);
 }

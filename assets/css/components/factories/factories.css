@@ -1,0 +1,31 @@
+.factories
+{
+  padding: 60px 0px 160px;
+  position: relative;
+}
+.factory__swiper
+{
+  width: 100%;
+  overflow: hidden
+}
+.factory
+{
+  height: 400px !important;
+  display: flex;
+  align-items: stretch;
+  padding: 10px;
+  border: 2px solid var(--color-border);
+  box-shadow: 0 2px 8px 0 rgba(102,163,238,.08);
+  border-radius: 4px;
+}
+.factory-description
+{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.factory-name
+{
+  margin-bottom: 15px;
+}
