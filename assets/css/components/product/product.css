@@ -9,7 +9,7 @@
 }
 .product
 {
-  height: 400px !important;
+  height: 350px !important;
   display: flex;
   align-items: stretch;
   padding: 0 10px 10px;
@@ -34,9 +34,9 @@
 .swiper-image
 {
   display: flex;
-  margin-bottom: 30px;
-  min-height: 200px;
-  max-height: 200px;
+  min-height: 150px;
+  max-height: 150px;
+  margin-bottom: 10px;
 }
 .card-link
 {
