@@ -1,5 +1,7 @@
 let language = document.querySelector('.language');
 let dropdown__language = document.querySelector('.dropdown-language__content');
+let dropdown__language__items = document.querySelectorAll('.dropdown-language__content ul li');
+
 
 language.addEventListener('click', function() {
   dropdown__language.classList.toggle('active');

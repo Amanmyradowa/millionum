@@ -19,6 +19,7 @@
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+    transition: ease-in-out .4s;
 }
 .swiper__header a:hover
 {
